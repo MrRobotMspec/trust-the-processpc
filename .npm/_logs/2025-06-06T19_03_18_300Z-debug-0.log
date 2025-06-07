@@ -1,0 +1,469 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.2.0
+2 info using node@v20.19.2
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 6ms
+6 timing config:load:builtin Completed in 8ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/kali/trust-the-process/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 18ms
+11 timing config:load:file:/home/kali/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 35ms
+17 timing npm:load:configload Completed in 36ms
+18 timing npm:load:mkdirpcache Completed in 2ms
+19 timing npm:load:mkdirplogs Completed in 2ms
+20 verbose title npm install
+21 verbose argv "install"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing config:load:flatten Completed in 6ms
+24 timing npm:load:display Completed in 7ms
+25 verbose logfile logs-max:10 dir:/home/kali/.npm/_logs/2025-06-06T19_03_18_300Z-
+26 verbose logfile /home/kali/.npm/_logs/2025-06-06T19_03_18_300Z-debug-0.log
+27 timing npm:load:logFile Completed in 18ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 69ms
+31 silly logfile done cleaning log files
+32 timing config:load:flatten Completed in 1ms
+33 timing arborist:ctor Completed in 2ms
+34 timing idealTree:init Completed in 335ms
+35 timing idealTree:userRequests Completed in 0ms
+36 silly idealTree buildDeps
+37 timing idealTree:#root Completed in 1ms
+38 timing idealTree:buildDeps Completed in 3ms
+39 timing idealTree:fixDepFlags Completed in 0ms
+40 timing idealTree Completed in 345ms
+41 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+42 timing reify:loadTrees Completed in 846ms
+43 timing reify:diffTrees Completed in 28ms
+44 silly reify moves {}
+45 timing reify:retireShallow Completed in 2ms
+46 timing reify:createSparse Completed in 12ms
+47 timing reify:loadBundles Completed in 0ms
+48 silly audit bulk request {
+48 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+48 silly audit   '@babel/code-frame': [ '7.27.1' ],
+48 silly audit   '@babel/compat-data': [ '7.27.5' ],
+48 silly audit   '@babel/core': [ '7.27.4' ],
+48 silly audit   '@babel/generator': [ '7.27.5' ],
+48 silly audit   '@babel/helper-compilation-targets': [ '7.27.2' ],
+48 silly audit   '@babel/helper-module-imports': [ '7.27.1' ],
+48 silly audit   '@babel/helper-module-transforms': [ '7.27.3' ],
+48 silly audit   '@babel/helper-plugin-utils': [ '7.27.1' ],
+48 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+48 silly audit   '@babel/helper-validator-identifier': [ '7.27.1' ],
+48 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+48 silly audit   '@babel/helpers': [ '7.27.6' ],
+48 silly audit   '@babel/parser': [ '7.27.5' ],
+48 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.27.1' ],
+48 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.27.1' ],
+48 silly audit   '@babel/template': [ '7.27.2' ],
+48 silly audit   '@babel/traverse': [ '7.27.4' ],
+48 silly audit   globals: [ '11.12.0', '14.0.0', '16.2.0' ],
+48 silly audit   '@babel/types': [ '7.27.6' ],
+48 silly audit   '@esbuild/aix-ppc64': [ '0.25.5' ],
+48 silly audit   '@esbuild/android-arm': [ '0.25.5' ],
+48 silly audit   '@esbuild/android-arm64': [ '0.25.5' ],
+48 silly audit   '@esbuild/android-x64': [ '0.25.5' ],
+48 silly audit   '@esbuild/darwin-arm64': [ '0.25.5' ],
+48 silly audit   '@esbuild/darwin-x64': [ '0.25.5' ],
+48 silly audit   '@esbuild/freebsd-arm64': [ '0.25.5' ],
+48 silly audit   '@esbuild/freebsd-x64': [ '0.25.5' ],
+48 silly audit   '@esbuild/linux-arm': [ '0.25.5' ],
+48 silly audit   '@esbuild/linux-arm64': [ '0.25.5' ],
+48 silly audit   '@esbuild/linux-ia32': [ '0.25.5' ],
+48 silly audit   '@esbuild/linux-loong64': [ '0.25.5' ],
+48 silly audit   '@esbuild/linux-mips64el': [ '0.25.5' ],
+48 silly audit   '@esbuild/linux-ppc64': [ '0.25.5' ],
+48 silly audit   '@esbuild/linux-riscv64': [ '0.25.5' ],
+48 silly audit   '@esbuild/linux-s390x': [ '0.25.5' ],
+48 silly audit   '@esbuild/linux-x64': [ '0.25.5' ],
+48 silly audit   '@esbuild/netbsd-arm64': [ '0.25.5' ],
+48 silly audit   '@esbuild/netbsd-x64': [ '0.25.5' ],
+48 silly audit   '@esbuild/openbsd-arm64': [ '0.25.5' ],
+48 silly audit   '@esbuild/openbsd-x64': [ '0.25.5' ],
+48 silly audit   '@esbuild/sunos-x64': [ '0.25.5' ],
+48 silly audit   '@esbuild/win32-arm64': [ '0.25.5' ],
+48 silly audit   '@esbuild/win32-ia32': [ '0.25.5' ],
+48 silly audit   '@esbuild/win32-x64': [ '0.25.5' ],
+48 silly audit   '@eslint-community/eslint-utils': [ '4.7.0' ],
+48 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.0' ],
+48 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+48 silly audit   '@eslint/config-array': [ '0.20.0' ],
+48 silly audit   '@eslint/config-helpers': [ '0.2.2' ],
+48 silly audit   '@eslint/core': [ '0.14.0' ],
+48 silly audit   '@eslint/eslintrc': [ '3.3.1' ],
+48 silly audit   '@eslint/js': [ '9.28.0' ],
+48 silly audit   '@eslint/object-schema': [ '2.1.6' ],
+48 silly audit   '@eslint/plugin-kit': [ '0.3.1' ],
+48 silly audit   '@humanfs/core': [ '0.19.1' ],
+48 silly audit   '@humanfs/node': [ '0.16.6' ],
+48 silly audit   '@humanwhocodes/retry': [ '0.3.1', '0.4.3' ],
+48 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+48 silly audit   '@jridgewell/gen-mapping': [ '0.3.8' ],
+48 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+48 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+48 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+48 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+48 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.9' ],
+48 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-android-arm64': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-darwin-arm64': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-darwin-x64': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-freebsd-x64': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-linux-loongarch64-gnu': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-linux-powerpc64le-gnu': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.42.0' ],
+48 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.42.0' ],
+48 silly audit   '@types/babel__core': [ '7.20.5' ],
+48 silly audit   '@types/babel__generator': [ '7.27.0' ],
+48 silly audit   '@types/babel__template': [ '7.4.4' ],
+48 silly audit   '@types/babel__traverse': [ '7.20.7' ],
+48 silly audit   '@types/estree': [ '1.0.8', '1.0.7' ],
+48 silly audit   '@types/json-schema': [ '7.0.15' ],
+48 silly audit   '@types/react': [ '19.1.6' ],
+48 silly audit   '@types/react-dom': [ '19.1.6' ],
+48 silly audit   '@vitejs/plugin-react': [ '4.5.1' ],
+48 silly audit   acorn: [ '8.14.1' ],
+48 silly audit   'acorn-jsx': [ '5.3.2' ],
+48 silly audit   ajv: [ '6.12.6' ],
+48 silly audit   'ansi-styles': [ '4.3.0' ],
+48 silly audit   argparse: [ '2.0.1' ],
+48 silly audit   'balanced-match': [ '1.0.2' ],
+48 silly audit   'brace-expansion': [ '1.1.11' ],
+48 silly audit   browserslist: [ '4.25.0' ],
+48 silly audit   callsites: [ '3.1.0' ],
+48 silly audit   'caniuse-lite': [ '1.0.30001721' ],
+48 silly audit   chalk: [ '4.1.2' ],
+48 silly audit   'color-convert': [ '2.0.1' ],
+48 silly audit   'color-name': [ '1.1.4' ],
+48 silly audit   'concat-map': [ '0.0.1' ],
+48 silly audit   'convert-source-map': [ '2.0.0' ],
+48 silly audit   'cross-spawn': [ '7.0.6' ],
+48 silly audit   csstype: [ '3.1.3' ],
+48 silly audit   debug: [ '4.4.1' ],
+48 silly audit   'deep-is': [ '0.1.4' ],
+48 silly audit   'electron-to-chromium': [ '1.5.165' ],
+48 silly audit   esbuild: [ '0.25.5' ],
+48 silly audit   escalade: [ '3.2.0' ],
+48 silly audit   'escape-string-regexp': [ '4.0.0' ],
+48 silly audit   eslint: [ '9.28.0' ],
+48 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+48 silly audit   'eslint-plugin-react-refresh': [ '0.4.20' ],
+48 silly audit   'eslint-scope': [ '8.3.0' ],
+48 silly audit   espree: [ '10.3.0' ],
+48 silly audit   esquery: [ '1.6.0' ],
+48 silly audit   esrecurse: [ '4.3.0' ],
+48 silly audit   estraverse: [ '5.3.0' ],
+48 silly audit   esutils: [ '2.0.3' ],
+48 silly audit   'fast-deep-equal': [ '3.1.3' ],
+48 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+48 silly audit   'fast-levenshtein': [ '2.0.6' ],
+48 silly audit   fdir: [ '6.4.5' ],
+48 silly audit   'file-entry-cache': [ '8.0.0' ],
+48 silly audit   'find-up': [ '5.0.0' ],
+48 silly audit   'flat-cache': [ '4.0.1' ],
+48 silly audit   flatted: [ '3.3.3' ],
+48 silly audit   fsevents: [ '2.3.3' ],
+48 silly audit   gensync: [ '1.0.0-beta.2' ],
+48 silly audit   'glob-parent': [ '6.0.2' ],
+48 silly audit   'has-flag': [ '4.0.0' ],
+48 silly audit   ignore: [ '5.3.2' ],
+48 silly audit   'import-fresh': [ '3.3.1' ],
+48 silly audit   imurmurhash: [ '0.1.4' ],
+48 silly audit   'is-extglob': [ '2.1.1' ],
+48 silly audit   'is-glob': [ '4.0.3' ],
+48 silly audit   isexe: [ '2.0.0' ],
+48 silly audit   'js-tokens': [ '4.0.0' ],
+48 silly audit   'js-yaml': [ '4.1.0' ],
+48 silly audit   jsesc: [ '3.1.0' ],
+48 silly audit   'json-buffer': [ '3.0.1' ],
+48 silly audit   'json-schema-traverse': [ '0.4.1' ],
+48 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+48 silly audit   json5: [ '2.2.3' ],
+48 silly audit   keyv: [ '4.5.4' ],
+48 silly audit   levn: [ '0.4.1' ],
+48 silly audit   'locate-path': [ '6.0.0' ],
+48 silly audit   'lodash.merge': [ '4.6.2' ],
+48 silly audit   'lru-cache': [ '5.1.1' ],
+48 silly audit   minimatch: [ '3.1.2' ],
+48 silly audit   ms: [ '2.1.3' ],
+48 silly audit   nanoid: [ '3.3.11' ],
+48 silly audit   'natural-compare': [ '1.4.0' ],
+48 silly audit   'node-releases': [ '2.0.19' ],
+48 silly audit   optionator: [ '0.9.4' ],
+48 silly audit   'p-limit': [ '3.1.0' ],
+48 silly audit   'p-locate': [ '5.0.0' ],
+48 silly audit   'parent-module': [ '1.0.1' ],
+48 silly audit   'path-exists': [ '4.0.0' ],
+48 silly audit   'path-key': [ '3.1.1' ],
+48 silly audit   picocolors: [ '1.1.1' ],
+48 silly audit   picomatch: [ '4.0.2' ],
+48 silly audit   postcss: [ '8.5.4' ],
+48 silly audit   'prelude-ls': [ '1.2.1' ],
+48 silly audit   punycode: [ '2.3.1' ],
+48 silly audit   react: [ '19.1.0' ],
+48 silly audit   'react-dom': [ '19.1.0' ],
+48 silly audit   'react-refresh': [ '0.17.0' ],
+48 silly audit   'resolve-from': [ '4.0.0' ],
+48 silly audit   rollup: [ '4.42.0' ],
+48 silly audit   scheduler: [ '0.26.0' ],
+48 silly audit   semver: [ '6.3.1' ],
+48 silly audit   'shebang-command': [ '2.0.0' ],
+48 silly audit   'shebang-regex': [ '3.0.0' ],
+48 silly audit   'source-map-js': [ '1.2.1' ],
+48 silly audit   'strip-json-comments': [ '3.1.1' ],
+48 silly audit   'supports-color': [ '7.2.0' ],
+48 silly audit   tinyglobby: [ '0.2.14' ],
+48 silly audit   'type-check': [ '0.4.0' ],
+48 silly audit   'update-browserslist-db': [ '1.1.3' ],
+48 silly audit   'uri-js': [ '4.4.1' ],
+48 silly audit   vite: [ '6.3.5' ],
+48 silly audit   which: [ '2.0.2' ],
+48 silly audit   'word-wrap': [ '1.2.5' ],
+48 silly audit   yallist: [ '3.1.1' ],
+48 silly audit   'yocto-queue': [ '0.1.0' ]
+48 silly audit }
+49 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/fsevents
+50 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/fsevents' ]
+51 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-win32-x64-msvc
+52 silly reify mark deleted [
+52 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-win32-x64-msvc'
+52 silly reify ]
+53 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-win32-ia32-msvc
+54 silly reify mark deleted [
+54 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-win32-ia32-msvc'
+54 silly reify ]
+55 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-win32-arm64-msvc
+56 silly reify mark deleted [
+56 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-win32-arm64-msvc'
+56 silly reify ]
+57 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-linux-s390x-gnu
+58 silly reify mark deleted [
+58 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-linux-s390x-gnu'
+58 silly reify ]
+59 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-linux-riscv64-musl
+60 silly reify mark deleted [
+60 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-linux-riscv64-musl'
+60 silly reify ]
+61 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-linux-riscv64-gnu
+62 silly reify mark deleted [
+62 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-linux-riscv64-gnu'
+62 silly reify ]
+63 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-linux-powerpc64le-gnu
+64 silly reify mark deleted [
+64 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-linux-powerpc64le-gnu'
+64 silly reify ]
+65 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-linux-loongarch64-gnu
+66 silly reify mark deleted [
+66 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-linux-loongarch64-gnu'
+66 silly reify ]
+67 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-linux-arm64-musl
+68 silly reify mark deleted [
+68 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-linux-arm64-musl'
+68 silly reify ]
+69 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-linux-arm64-gnu
+70 silly reify mark deleted [
+70 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-linux-arm64-gnu'
+70 silly reify ]
+71 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-linux-arm-musleabihf
+72 silly reify mark deleted [
+72 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-linux-arm-musleabihf'
+72 silly reify ]
+73 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-linux-arm-gnueabihf
+74 silly reify mark deleted [
+74 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+74 silly reify ]
+75 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-freebsd-x64
+76 silly reify mark deleted [
+76 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-freebsd-x64'
+76 silly reify ]
+77 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-freebsd-arm64
+78 silly reify mark deleted [
+78 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-freebsd-arm64'
+78 silly reify ]
+79 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-darwin-x64
+80 silly reify mark deleted [
+80 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-darwin-x64'
+80 silly reify ]
+81 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-darwin-arm64
+82 silly reify mark deleted [
+82 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-darwin-arm64'
+82 silly reify ]
+83 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-android-arm64
+84 silly reify mark deleted [
+84 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-android-arm64'
+84 silly reify ]
+85 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@rollup/rollup-android-arm-eabi
+86 silly reify mark deleted [
+86 silly reify   '/home/kali/trust-the-process/node_modules/@rollup/rollup-android-arm-eabi'
+86 silly reify ]
+87 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/win32-x64
+88 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/win32-x64' ]
+89 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/win32-ia32
+90 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/win32-ia32' ]
+91 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/win32-arm64
+92 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/win32-arm64' ]
+93 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/sunos-x64
+94 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/sunos-x64' ]
+95 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/openbsd-x64
+96 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/openbsd-x64' ]
+97 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/openbsd-arm64
+98 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/openbsd-arm64' ]
+99 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/netbsd-x64
+100 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/netbsd-x64' ]
+101 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/netbsd-arm64
+102 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/netbsd-arm64' ]
+103 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/linux-s390x
+104 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/linux-s390x' ]
+105 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/linux-riscv64
+106 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/linux-riscv64' ]
+107 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/linux-ppc64
+108 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/linux-ppc64' ]
+109 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/linux-mips64el
+110 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/linux-mips64el' ]
+111 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/linux-loong64
+112 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/linux-loong64' ]
+113 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/linux-ia32
+114 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/linux-ia32' ]
+115 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/linux-arm64
+116 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/linux-arm64' ]
+117 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/linux-arm
+118 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/linux-arm' ]
+119 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/freebsd-x64
+120 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/freebsd-x64' ]
+121 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/freebsd-arm64
+122 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/freebsd-arm64' ]
+123 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/darwin-x64
+124 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/darwin-x64' ]
+125 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/darwin-arm64
+126 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/darwin-arm64' ]
+127 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/android-x64
+128 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/android-x64' ]
+129 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/android-arm64
+130 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/android-arm64' ]
+131 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/android-arm
+132 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/android-arm' ]
+133 verbose reify failed optional dependency /home/kali/trust-the-process/node_modules/@esbuild/aix-ppc64
+134 silly reify mark deleted [ '/home/kali/trust-the-process/node_modules/@esbuild/aix-ppc64' ]
+135 timing reifyNode:node_modules/fsevents Completed in 87ms
+136 timing reifyNode:node_modules/@rollup/rollup-win32-x64-msvc Completed in 86ms
+137 timing reifyNode:node_modules/@rollup/rollup-win32-ia32-msvc Completed in 86ms
+138 timing reifyNode:node_modules/@rollup/rollup-win32-arm64-msvc Completed in 86ms
+139 timing reifyNode:node_modules/@rollup/rollup-linux-s390x-gnu Completed in 86ms
+140 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-musl Completed in 86ms
+141 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 86ms
+142 timing reifyNode:node_modules/@rollup/rollup-linux-powerpc64le-gnu Completed in 86ms
+143 timing reifyNode:node_modules/@rollup/rollup-linux-loongarch64-gnu Completed in 86ms
+144 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-musl Completed in 86ms
+145 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-gnu Completed in 86ms
+146 timing reifyNode:node_modules/@rollup/rollup-linux-arm-musleabihf Completed in 86ms
+147 timing reifyNode:node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 86ms
+148 timing reifyNode:node_modules/@rollup/rollup-freebsd-x64 Completed in 87ms
+149 timing reifyNode:node_modules/@rollup/rollup-freebsd-arm64 Completed in 86ms
+150 timing reifyNode:node_modules/@rollup/rollup-darwin-x64 Completed in 86ms
+151 timing reifyNode:node_modules/@rollup/rollup-darwin-arm64 Completed in 86ms
+152 timing reifyNode:node_modules/@rollup/rollup-android-arm64 Completed in 86ms
+153 timing reifyNode:node_modules/@rollup/rollup-android-arm-eabi Completed in 86ms
+154 timing reifyNode:node_modules/@esbuild/win32-x64 Completed in 87ms
+155 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 87ms
+156 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 87ms
+157 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 87ms
+158 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 87ms
+159 timing reifyNode:node_modules/@esbuild/openbsd-arm64 Completed in 87ms
+160 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 86ms
+161 timing reifyNode:node_modules/@esbuild/netbsd-arm64 Completed in 86ms
+162 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 87ms
+163 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 87ms
+164 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 87ms
+165 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 87ms
+166 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 87ms
+167 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 87ms
+168 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 87ms
+169 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 87ms
+170 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 87ms
+171 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 87ms
+172 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 86ms
+173 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 87ms
+174 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 87ms
+175 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 87ms
+176 timing reifyNode:node_modules/@esbuild/android-arm Completed in 87ms
+177 timing reifyNode:node_modules/@esbuild/aix-ppc64 Completed in 87ms
+178 timing reify:unpack Completed in 92ms
+179 timing reify:unretire Completed in 1ms
+180 timing build:queue Completed in 23ms
+181 timing build:deps Completed in 24ms
+182 timing build Completed in 25ms
+183 timing reify:build Completed in 27ms
+184 timing reify:trash Completed in 43ms
+185 timing reify:save Completed in 192ms
+186 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 844ms
+187 timing auditReport:getReport Completed in 853ms
+188 silly audit report {}
+189 timing auditReport:init Completed in 0ms
+190 timing reify:audit Completed in 853ms
+191 timing reify Completed in 1752ms
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD
+197 silly ADD
+198 silly ADD
+199 silly ADD
+200 silly ADD
+201 silly ADD
+202 silly ADD
+203 silly ADD
+204 silly ADD
+205 silly ADD
+206 silly ADD
+207 silly ADD
+208 silly ADD
+209 silly ADD
+210 silly ADD
+211 silly ADD
+212 silly ADD
+213 silly ADD
+214 silly ADD
+215 silly ADD
+216 silly ADD
+217 silly ADD
+218 silly ADD
+219 silly ADD
+220 silly ADD
+221 silly ADD
+222 silly ADD
+223 silly ADD
+224 silly ADD
+225 silly ADD
+226 silly ADD
+227 silly ADD
+228 silly ADD
+229 silly ADD
+230 silly ADD
+231 silly ADD
+232 silly ADD
+233 silly ADD
+234 silly ADD
+235 timing command:install Completed in 1782ms
+236 verbose exit 0
+237 timing npm Completed in 1910ms
+238 info ok
